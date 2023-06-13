@@ -3,7 +3,7 @@ function threeSum(arr, target) {
 	let sum=0
   for(let i=0;i<arr.length;i++){
 	  sum+=arr[i]
-	  if(sum>=target){
+	  if(sum>=target&&i==2){
 		  return sum;
 	  }
   }
